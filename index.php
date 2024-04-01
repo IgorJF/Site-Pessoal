@@ -21,16 +21,30 @@
         </nav>
     </div>
 
-    <div>
-        <section>
+    <div class="main">
+        <section class="sobre">
+            <header>
+                <h2><a>CONHEÇA A MINHA EXPERIÊNCIA PROFISSIONAL</a></h2>
+            </header>
+        </section>
 
+        <section class="articles">
+            <header>
+                <h2><a>ARTIGOS</a></h2>
+            </header>
+        </section>
+
+        <section class="projetos">
+            <header>
+                <h2><a>PROJETOS</a></h2>
+            </header>
         </section>
     </div>
 
-    <div>
-        <footer>
-            <p>© Igor Jorge Ferraz</p>
-        </footer>
+    <div id="copyright">
+        <ul>
+            <li>&copy; Igor Jorge Ferraz</li>
+        </ul>
     </div>
 
 </body>
