@@ -70,6 +70,15 @@ input, select, textarea {
 
 /* Basic */
 
+    body{
+        background-color: #212931;
+		background-image: url("../img/back.jpg");
+		background-size: 100% auto;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+    }
+
 	body {
         -ms-overflow-style: scrollbar;
 		background-color: #1e252d;
@@ -110,7 +119,6 @@ input, select, textarea {
 
 /* Nav */
     #navbar {
-        background-color: #212931;
         padding: 1rem 0;
         border: 2px solid #ffffff; 
         box-sizing: border-box; 
