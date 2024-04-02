@@ -1,6 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face{
+  font-family: Myfont;
+  src: url(../fonts/Myfont-Regular.ttf);
+}
+
+.cargo{
+  text-align: left !important;
+  justify-content: left !important;
+}
+
 .center {
   text-align: center;
   justify-content: center;
+}
+
+.skills{
+  justify-content: center;
+  text-align: center;
 }
 
 .skillis {
@@ -11,10 +28,31 @@
   color: #1e252d; 
   text-align: center;
   display: inline-block;
+  justify-content: center;
+  text-align: center;
 }
 
   .skillis li{
     display: inline-block; 
     margin-right: 10px; 
+    font-family: MyFont;
+    justify-content: center;
+    text-align: center;
+  }
+
+    .skillis li:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      color: #6200d2;
+    }
+
+  h4{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 48;
+		line-height: 1.5;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+    color: #212931;
+    text-align: center;
   }
 
