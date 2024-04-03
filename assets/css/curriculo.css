@@ -110,7 +110,7 @@ hr{
     color: #6200d2;
   }
 
-button{
+.download{
   color: white;
   background-color: #6200d2;
   border: none;
@@ -123,11 +123,16 @@ button{
   transition: 0.7s;
 }
 
-  button:hover{
+.download:hover{
     background-color: #3e0283;
   }
 
 .button{
   justify-content: center;
   text-align: center;
+}
+
+.ps{
+  margin-top: 6px;
+  float: right;
 }

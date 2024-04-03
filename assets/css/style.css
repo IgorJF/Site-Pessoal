@@ -165,9 +165,6 @@ input, select, textarea {
         text-decoration: none;
     }
 
-
-	
-
 /* Main */
 
 	#main {
@@ -203,4 +200,28 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-		
+	.topo {
+		position: fixed !important;
+		bottom: 30px !important;
+		right: 20px !important;
+		background-color: #6200d2;
+		color: white;
+		border-radius: 50%;
+		width: 50px !important;
+		height: 50px !important;
+		cursor: pointer !important;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+		text-align: center !important;
+	}
+	
+	.topo:hover {
+		background-color: #24034a;
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	
+	.seta{
+		font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+		font-size: 30px !important;
+		margin-left: 8px !important;
+	}
