@@ -111,8 +111,8 @@ hr{
   }
 
 .download{
-  color: white;
-  background-color: #6200d2;
+  color: #6200d2;
+  background-color: white;
   border: none;
   text-decoration: none;
   font-size: 20px;
@@ -121,10 +121,13 @@ hr{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   transition: 0.7s;
+  border: solid 4px #6200d2;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .download:hover{
     background-color: #3e0283;
+    color: white;
   }
 
 .button{

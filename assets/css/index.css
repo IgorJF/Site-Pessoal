@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
-    width: 321px;
+    width: 270px;
     margin-bottom: 25px;
     margin-right: 20px;
 }
@@ -16,8 +24,8 @@
 }
 
 img {
-    width: 321px;
-    height: 210px;
+    width: 270px;
+    height: 160px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -26,6 +34,7 @@ img {
     font-family: Myfont;
     font-size: 25px;
     color: #212931;
+    margin-top: -30px;
 }
 
 .icones:hover {
@@ -37,3 +46,84 @@ img {
 .icont {
     display: flex;
 }
+
+.title {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 24;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #212931;
+}
+
+.description{
+    font-size: 12px;
+    color: black;
+}
+
+.click{
+    text-decoration: none;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+
+
+.carousel-controls {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: flex; 
+    width: 100%;
+    justify-content: space-between; 
+}
+
+.carousel-controls button {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    opacity: 1; 
+}
+
+.prev {
+    left: 30px; 
+}
+
+.next {
+    right: 10px;
+}
+
+
+.veja{
+    color: #6200d2;
+    border: solid #6200d2 4px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    transition: 0.7s;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-color: white;
+  }
+  
+  .veja:hover{
+      background-color: #3e0283;
+      color: white;
+    }
+
+    .center{
+        justify-content: center;
+        text-align: center;
+    }
+    
