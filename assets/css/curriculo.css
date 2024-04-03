@@ -2,12 +2,37 @@
 
 @font-face{
   font-family: Myfont;
-  src: url(../fonts/Myfont-Regular.ttf);
+  src: url(../fonts/Mynewfont-Regular.ttf);
 }
 
 .cargo{
   text-align: left !important;
   justify-content: left !important;
+}
+
+.project{
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #6200d2 !important;
+}
+
+a{
+  text-decoration: none;
+  color:#212931
+}
+
+  a:hover{
+    color: #6200d2;
+  }
+
+.date{
+  font-family:"Source Sans Pro", Helvetica, sans-serif ;
+  color:#1e252d
+}
+
+hr{
+  color: #1e252d;
+  width: 640px;
+  margin-bottom: 40px;
 }
 
 .center {
@@ -38,6 +63,7 @@
     font-family: MyFont;
     justify-content: center;
     text-align: center;
+    transition: 0.7s;
   }
 
     .skillis li:hover{
@@ -56,3 +82,52 @@
     text-align: center;
   }
 
+.curso{
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+.inst {
+  padding: 0; 
+  font-size: 20px; 
+  color: #1e252d; 
+  display: inline-block; 
+  font-family: MyFont;
+}
+
+    .inst:hover{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      color: #6200d2;
+    }
+
+.certificado{
+  color: #1e252d; 
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+  .certificado:hover{
+    color: #6200d2;
+  }
+
+button{
+  color: white;
+  background-color: #6200d2;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+  button:hover{
+    background-color: #3e0283;
+  }
+
+.button{
+  justify-content: center;
+  text-align: center;
+}

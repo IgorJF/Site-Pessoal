@@ -7,7 +7,6 @@
     <title>Igor Ferraz</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/fontello-5d0fab74/css/fontello.css">
-    <link href="assets/fonts/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/curriculo.css">
 </head>
 
@@ -15,7 +14,6 @@
     <nav id="navbar">
         <ul class="links">
             <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
             <li class="active"><a href="curriculo.html">Currículo</a></li>
             <li><a href="artigos.html">Artigos</a></li>
             <li><a href="projetos.html">Projetos</a></li>
@@ -26,21 +24,19 @@
     <div id="main">
         <article class="sobre">
             <h2 class="center">PERFIL</h2>
-            <div>
-                <div class="image left icon-container">
+            <div class="image left icon-container">
+                <ul class="icons">
                     <ul class="icons">
-                        <ul class="icons">
-                            <li><a href="igorjgferraz@gmail.com" target="_blank"><i
-                                        class="demo-icon icon-mail-alt"></i></a></li>
-                            <li><a href="https://api.whatsapp.com/send?phone=5528999004260" target="_blank"><i
-                                        class="demo-icon icon-whatsapp"></i></a></li>
-                            <li><a href="https://github.com/IgorJF" target="_blank"><i
-                                        class="demo-icon icon-github-squared"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/igor-jorge-4a8b2b21b/" target="_blank"><i
-                                        class="demo-icon icon-linkedin-squared"></i></a></li>
-                        </ul>
+                        <li><a href="igorjgferraz@gmail.com" target="_blank"><i class="demo-icon icon-mail-alt"></i></a>
+                        </li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5528999004260" target="_blank"><i
+                                    class="demo-icon icon-whatsapp"></i></a></li>
+                        <li><a href="https://github.com/IgorJF" target="_blank"><i
+                                    class="demo-icon icon-github-squared"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/igor-jorge-4a8b2b21b/" target="_blank"><i
+                                    class="demo-icon icon-linkedin-squared"></i></a></li>
                     </ul>
-                </div>
+                </ul>
                 <div>
                     <p>
                         Formado em Técnico de Informática pelo Instituto Federal do Espírito Santo (<a
@@ -55,10 +51,13 @@
                         Espírito Santo (<a href="https://www.ufes.br" target="_blank">UFES</a>).
                     </p>
                 </div>
+                <div class="button">
+                    <button class="download">Download CV</button>
+                </div>
         </article>
         <article class="skills">
             <h2 class="center">SKILLS</h2>
-            <h4>LINGUAGENS</h4>
+            <h4>DESENVOLVIMENTO</h4>
             <ul class="skillis">
                 <li class="techs">H</li>
                 <li class="techs">c</li>
@@ -103,42 +102,125 @@
         <article class="experiencia">
             <h2 class="center">EXPERIÊNCIA PROFISSIONAL</h2>
             <h4 class="cargo">Desenvolvedor FullStack Júnior</h4>
-            <h6><a href="">FAPES</a>/<a href="">TJES</a>
+            <h6 class="project">PROJETO SIGEX</h6>
+            <h6><a href="https://fapes.es.gov.br">FAPES</a>/<a href="">TJES</a></h6>
+            <h6 class="date">Abril 2023 - Dezembro 2023</h6>
             <p>
-                <ol>
-                    <li>
-                        SIGEX é o sistema que está sendo desenvolvido para a utilização dos cartórios do estado do Espírito Santo,
-                        Brasil. O sistema tem o objetivo de monitorar processos e serventias.
-                    </li>
-                    <li>● Trabalhei como bolsista no ensino médio. O projeto contava com uma grande equipe de pessoas
-                        experientes e outros bolsistas do ensino médio.
-                    </li>
-                    <li>● Utilizando de um ambiente no Docker para o seu desenvolvimento, o projeto conta com as
-                        tecnologias de Angular no front-end, e Spring para tratar do back-end, além de HTML, SASS e
-                        TypeScript.
-                    </li>
-                    <li>● Bancos de Dados em SQL também foram utilizados, principalmente para o teste de APIs com
-                        Swagger.
-                    </li>
-                    <li>● Desenvolvi testes de diversas funcionalidades com Cypress. Todas as atividades eram divididas
-                        entre equipes, e em forma de Sprint para o desenvolvimento de quaisquer atividades.
-                    </li>
-                </ol>
+            <ol>
+                <li>
+                    SIGEX é o sistema que está sendo desenvolvido para a utilização dos cartórios do estado do Espírito
+                    Santo,
+                    Brasil. O sistema tem o objetivo de monitorar processos e serventias.
+                </li>
+                <li>
+                    ● Trabalhei como bolsista no ensino médio. O projeto contava com uma grande equipe de pessoas
+                    experientes e outros bolsistas do ensino médio.
+                </li>
+                <li>
+                    ● Utilizando de um ambiente no Docker para o seu desenvolvimento, o projeto conta com as
+                    tecnologias de Angular no front-end, e Spring para tratar do back-end, além de HTML, SASS e
+                    TypeScript.
+                </li>
+                <li>
+                    ● Bancos de Dados em SQL também foram utilizados, principalmente para o teste de APIs com
+                    Swagger.
+                </li>
+                <li>
+                    ● Desenvolvi testes de diversas funcionalidades com Cypress. Todas as atividades eram divididas
+                    entre equipes, e em forma de Sprint para o desenvolvimento de quaisquer atividades.
+                </li>
+            </ol>
+            </p>
+            <hr>
+            <h4 class="cargo">Desenvolvedor Arduíno</h4>
+            <h6 class="project">PROJETO MONITORAMENTO DE SINAIS VITAIS</h6>
+            <h6><a href="https://fapes.es.gov.br">FAPES</a></h6>
+            <h6 class="date">Abril 2022 - Dezembro 2022</h6>
+            <p>
+            <ol>
+                <li>
+                    Este projeto tinha o objetivo de construir um dispositivo com Arduíno para o monitoramento de Sinais
+                    Vitais. Foi desenvolvido um bracelete que tinha a capacidade de medir batimentos cardíacos,
+                    oxigenação do
+                    sangue, ler o movimento, temperatura e localização.
+                </li>
+                <li>
+                    ● Trabalhei como bolsista no ensino médio. Juntamente com um instrutor e uma equipe.
+                </li>
+                <li>
+                    ● Tarefas eram divididas entre nós para a programação de cada um dos sensores utilizados.
+                </li>
+                <li>
+                    ● Foram utilizados microcontroladores ESP32 e diversos sensores de medição.
+                </li>
+                <li>
+                    ● Um aplicativo em JAVA foi desenvolvido para fácil monitoramento. O programa em comunicação
+                    com o microcontrolador mostrava todos os dados em tempo real e criava relatórios diários.
+                </li>
+                <li>
+                    ● Para a montagem final do dispositivo, foi modelado e impresso em 3D, um suporte que se prendia
+                    ao braço do usuário.
+                </li>
+            </ol>
             </p>
         </article>
         <article class="formacao">
             <h2 class="center">FORMAÇÃO ACADÊMICA</h2>
+            <h4 class="curso">Bacharelado em Sistemas de Informação</h4>
+            <h6><a href="https://www.ufes.br">UFES</a> <a class="inst">f</a></h6>
+            <h6 class="date">Agosto 2024 - Dezembro 2028</h6>
+            <p>
+                No curso de graduação em Sistemas de Informação UFES, são apresentadas de forma aprofundada,
+                disciplinas de programação, estrutura de dados, arquitetura de computadores, análise de mercado e gestão
+                de tecnologia, matemática e estatística.
+            </p>
+            <hr>
+            <h4 class="curso">Técnico em Informática</h4>
+            <h6><a href="https://www.ifes.edu.br">IFES</a> <a class="inst">i</a></h6>
+            <h6 class="date">Junho 2021 - Dezembro 2023</h6>
+            <p>
+                No Curso Técnico de Informática integrado ao Ensino Médio Técnico do IFES, é apresentado as
+                competências de introdução à programação, programação orientada a objetos, programação avançada,
+                manutenção e montagem de computadores, análise e requisitos de um sistema, prototipagem de
+                aplicativos, redes de computadores e modelagem de dados e banco de dados.
+            </p>
         </article>
         <article class="cursos">
             <h2 class="center">CURSOS E CERTIFICADOS</h2>
+            <h6 class="certificado"><a
+                    href="https://drive.google.com/file/d/1ne2BRiVFVeHmHEk-cYMQj29T-_mKFH_0/view?usp=sharing"
+                    target="_blank">Certificação Pensamento Computacional</a></h6>
+            <p>Certificação Mooc de Lovelace: Pensamento Computacional com Scratch, regido pelo MOOC IFES.</p>
+
+            <h6 class="certificado"><a
+                    href="https://drive.google.com/file/d/1kSL7BT2-lFjsIkVh0cdIz9E7DV7CNFl9/view?usp=sharing"
+                    target="_blank">Certificação Docker</a></h6>
+            <p>Certificação Introducção ao Docker, regido pelo IFES CAMPUS ALEGRE.</a></p>
+
+            <h6 class="certificado"><a
+                    href="https://drive.google.com/file/d/1CQQzxxWbsY6hCVUmfCjzLK0ZLOYVlldZ/view?usp=sharing"
+                    target="_blank">Certificação Conecte-se Imediatamente</a></h6>
+            <p>Certificação FIC CONECTE-SE IMEDIATAMENTE, regido pelo IFES CAMPUS ALEGRE, feito através da
+                plataforma Cisco Netacad.</p>
+
+            <h6 class="certificado"><a
+                    href="https://drive.google.com/file/d/14KuDct-nr2lqU0YU5H9LLoG1J_lG2Fdn/view?usp=sharing"
+                    target="_blank">Certificação Internet das Coisas</a></h6>
+            <p>Certificação Introdução a Internet das Coisas, regido pelo IFES CAMPUS ALEGRE, feito através da
+                plataforma Cisco Netacad.</p>
+
+            <h6 class="certificado"><a
+                    href="https://drive.google.com/file/d/1uxClQAy4aKIhHvITA0MT1x5nzs03JA06/view?usp=sharing"
+                    target="_blank">Certificação Assistente de TI</a></h6>
+            <p>Certificação Assitente de TI, feita através da plataforma QualificarES,</p>
         </article>
         <article class="button">
-            <button class="download">Download CV</button>  
+            <button class="download">Download CV</button>
             <div class="image left icon-container">
                 <ul class="icons">
                     <ul class="icons">
-                        <li><a href="igorjgferraz@gmail.com" target="_blank"><i
-                                    class="demo-icon icon-mail-alt"></i></a></li>
+                        <li><a href="igorjgferraz@gmail.com" target="_blank"><i class="demo-icon icon-mail-alt"></i></a>
+                        </li>
                         <li><a href="https://api.whatsapp.com/send?phone=5528999004260" target="_blank"><i
                                     class="demo-icon icon-whatsapp"></i></a></li>
                         <li><a href="https://github.com/IgorJF" target="_blank"><i
@@ -147,7 +229,7 @@
                                     class="demo-icon icon-linkedin-squared"></i></a></li>
                     </ul>
                 </ul>
-            </div>   
+            </div>
         </article>
     </div>
 
