@@ -1,6 +1,8 @@
 # Site Pessoal
 Este projeto é pequeno site, que tem como ser uma vitrine digital para meus projetos e artigos. Ele permite a navegação entre páginas que contém informações sobre minhas habilidades e qualificações.
 
+https://igorjf.github.io/Site-Pessoal/
+
 ### Início
 A primeira página é apenas para receber o usuário, nessa página estao iseridas um resumo de informações que podem ser aprofundadas nas outras páginas presentes no projeto.
 ![Captura de tela 2024-04-03 202244](https://github.com/IgorJF/Site-Pessoal/assets/111748228/6473a43f-93ee-460d-89b8-e86b6cc86203)
@@ -35,7 +37,7 @@ Nesta página é possível visualizar todos os projetos em que já estive envolv
 - https://www.w3schools.com/css/css3_flexbox.asp
 - https://pt.stackoverflow.com/questions/259659/como-fazer-elemento-aparecer-ap%C3%B3s-scroll#:~:text=Basta%20adicionar%20%24('.,scroll-aparecer').
 
-
+https://igorjf.github.io/Site-Pessoal/
 ###### Igor Jorge Ferraz
 ###### Feito para fins de estudo
 
